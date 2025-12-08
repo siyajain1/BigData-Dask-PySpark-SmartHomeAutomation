@@ -14,11 +14,6 @@ The code is organized as a set of Jupyter notebooks designed to run in Google Co
 
 ## 1. Project Structure
 
-- `Dataset_EDA.ipynb`  
-  - Loads the combined smart-home + weather dataset  
-  - Writes it to **partitioned Parquet** using Dask  
-  - Performs basic exploratory analysis
-
 - `matplotlib_visualisations_bigdata.ipynb`  
   - Generates the visualizations used in the report/presentation  
   - Uses the same dataset and Parquet output as `Dataset_EDA.ipynb`
