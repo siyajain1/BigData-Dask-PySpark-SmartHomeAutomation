@@ -93,6 +93,6 @@ You can use **Google Colab** for running the scripts.
 
    ```python
    !pip install dask[complete] pyspark findspark lightgbm numpy pandas matplotlib seaborn -q
-
+   ```
    The notebooks should already include a cell for installing these libraries. 
 
