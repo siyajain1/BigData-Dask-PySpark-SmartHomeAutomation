@@ -83,9 +83,7 @@ This file is an augmented, merged dataset built from:
 
 ## 3. Environment Setup
 
-You can either use **Google Colab** (recommended for grading) or a **local environment**.
-
-### 3.1. Using Google Colab
+You can use **Google Colab** for running the scripts.
 
 1. Open the notebook from GitHub in Colab (File → Open Notebook → GitHub).
 2. In Colab, upload:
@@ -95,4 +93,6 @@ You can either use **Google Colab** (recommended for grading) or a **local envir
 
    ```python
    !pip install dask[complete] pyspark findspark lightgbm numpy pandas matplotlib seaborn -q
+
+   The notebooks should already include a cell for installing these libraries. 
 
