@@ -14,9 +14,10 @@ The code is organized as a set of Jupyter notebooks designed to run in Google Co
 
 ## 1. Project Structure
 
-- `matplotlib_visualisations_bigdata.ipynb`  
-  - Generates the visualizations used in the report/presentation  
-  - Uses the same dataset and Parquet output as `Dataset_EDA.ipynb`
+- `matplotlib_visualisations_bigdata.ipynb`
+  - Loads the combined smart-home + weather dataset  
+  - Writes it to **partitioned Parquet** using Dask
+  - Generates the visualizations used in the presentation and more 
 
 - `bigData_device_prediction (1).ipynb`  
   - Feature engineering for device-level behavior  
@@ -26,7 +27,7 @@ The code is organized as a set of Jupyter notebooks designed to run in Google Co
 - `BigData_energyusage.ipynb`  
   - Feature engineering for energy forecasting  
   - Trains a **LightGBM** regressor  
-  - Saves a `lightgbm_energy_model.txt` (and optionally a scaler such as `energy_scaler.pkl`)
+  - Saves a `lightgbm_energy_model.txt`
 
 - `sparkstreaming_demo_v2.ipynb`  
   - Spark Structured Streaming demo for **device usage predictions**  
