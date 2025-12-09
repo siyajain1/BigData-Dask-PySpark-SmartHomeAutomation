@@ -9,6 +9,8 @@ This repository contains the code for our **Smart Home Automation System**, a bi
 - Simulates **real-time streaming** predictions using **Spark Structured Streaming**
 
 The code is organized as a set of Jupyter notebooks designed to run in Google Colab or a local Python environment.
+Since the file is too large to upload to GitHub, here is a link to the zip file of the model weights that are used below. Download it and upload it to the directory your notebooks will be connected to:
+https://drive.google.com/file/d/18XOCGbz8lMQJw7MQ4wMwqQn-YHIjzbzy/view?usp=sharing
 
 ---
 
